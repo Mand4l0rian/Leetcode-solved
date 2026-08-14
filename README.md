@@ -30,5 +30,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1661-average-time-of-process-per-machine](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/1661-average-time-of-process-per-machine) |
 | [1683-invalid-tweets](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/1683-invalid-tweets) |
 | [1729-find-followers-count](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/1729-find-followers-count) |
+| [1731-the-number-of-employees-which-report-to-each-employee](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/1731-the-number-of-employees-which-report-to-each-employee) |
 | [1934-confirmation-rate](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/1934-confirmation-rate) |
 <!---LeetCode Topics End-->
