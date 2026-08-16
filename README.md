@@ -55,9 +55,11 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0035-search-insert-position](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0035-search-insert-position) |
 | [0704-binary-search](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0704-binary-search) |
 ## Binary Search
 |  |
 | ------- |
+| [0035-search-insert-position](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0035-search-insert-position) |
 | [0704-binary-search](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0704-binary-search) |
 <!---LeetCode Topics End-->
