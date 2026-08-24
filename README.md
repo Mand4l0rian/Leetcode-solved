@@ -93,6 +93,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0031-next-permutation](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0031-next-permutation) |
 | [0151-reverse-words-in-a-string](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0151-reverse-words-in-a-string) |
+| [0876-middle-of-the-linked-list](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0876-middle-of-the-linked-list) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -172,6 +173,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0206-reverse-linked-list](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0206-reverse-linked-list) |
+| [0876-middle-of-the-linked-list](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0876-middle-of-the-linked-list) |
 ## Recursion
 |  |
 | ------- |
