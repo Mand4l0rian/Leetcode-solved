@@ -138,6 +138,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0002-add-two-numbers) |
 | [1903-largest-odd-number-in-string](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/1903-largest-odd-number-in-string) |
 ## Trie
 |  |
@@ -173,6 +174,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Linked List
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0002-add-two-numbers) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0021-merge-two-sorted-lists](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0021-merge-two-sorted-lists) |
 | [0206-reverse-linked-list](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0206-reverse-linked-list) |
@@ -180,6 +182,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Recursion
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0002-add-two-numbers) |
 | [0021-merge-two-sorted-lists](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0021-merge-two-sorted-lists) |
 | [0206-reverse-linked-list](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0206-reverse-linked-list) |
 <!---LeetCode Topics End-->
