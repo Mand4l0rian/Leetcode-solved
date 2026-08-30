@@ -70,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0240-search-a-2d-matrix-ii) |
 | [0410-split-array-largest-sum](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0410-split-array-largest-sum) |
+| [0496-next-greater-element-i](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0496-next-greater-element-i) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0540-single-element-in-a-sorted-array) |
 | [0704-binary-search](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0704-binary-search) |
 | [0875-koko-eating-bananas](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0875-koko-eating-bananas) |
@@ -148,6 +149,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0020-valid-parentheses](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0020-valid-parentheses) |
 | [0232-implement-queue-using-stacks](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0232-implement-queue-using-stacks) |
 | [0234-palindrome-linked-list](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0234-palindrome-linked-list) |
+| [0496-next-greater-element-i](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0496-next-greater-element-i) |
 | [1021-remove-outermost-parentheses](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/1021-remove-outermost-parentheses) |
 ## Bracket Sequences
 |  |
@@ -175,6 +177,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0205-isomorphic-strings](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0242-valid-anagram) |
 | [0451-sort-characters-by-frequency](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0451-sort-characters-by-frequency) |
+| [0496-next-greater-element-i](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0496-next-greater-element-i) |
 ## String Matching
 |  |
 | ------- |
@@ -257,4 +260,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0232-implement-queue-using-stacks](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0232-implement-queue-using-stacks) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0496-next-greater-element-i](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0496-next-greater-element-i) |
 <!---LeetCode Topics End-->
