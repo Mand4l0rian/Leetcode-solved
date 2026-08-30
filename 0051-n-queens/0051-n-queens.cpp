@@ -1,6 +1,6 @@
 class Solution {
 public:
-    vector<string> func(vector<pair<int,int>>& temp, int n){
+    vector<string> func(vector<pair<int,int>>& temp, int& n){
         vector<string> ans1;
         for(auto it: temp){
             string ans2(n,'.');
@@ -11,7 +11,7 @@ public:
         return ans1;
     }
     vector<vector<string>> ans;
-    void solve(int ind, int n, vector<pair<int,int>>& temp){
+    void solve(int ind, int& n, vector<pair<int,int>>& temp){
         if(ind==n){
             ans.push_back(func(temp,n));
             return;
