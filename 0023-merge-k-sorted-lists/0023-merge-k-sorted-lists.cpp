@@ -11,24 +11,28 @@
 class Solution {
 public:
     ListNode* mergeKLists(vector<ListNode*>& lists) {
-        priority_queue<int, vector<int>, greater<int>> pq;
-        for(int i=0;i<lists.size();i++){
-            ListNode* temp=lists[i];
-            while(temp!=nullptr){
-                pq.push(temp->val);
-                temp=temp->next;
+        priority_queue<
+            pair<int, ListNode*>,
+            vector<pair<int, ListNode*>>,
+            greater<pair<int, ListNode*>>
+        > pq;
+        // Put first node of every list into heap
+        for (int i = 0; i < lists.size(); i++) {
+            if (lists[i] != nullptr) {
+                pq.push({lists[i]->val, lists[i]});
             }
         }
-        if(pq.size()==0) return nullptr;
-        ListNode* head= new ListNode(pq.top());
-        pq.pop();
-        ListNode* temp=head;
-        while(!pq.empty()){
-            ListNode* temp1= new ListNode(pq.top());
+        ListNode dummy(0);
+        ListNode* tail = &dummy;
+        while (!pq.empty()) {
+            auto [val, node] = pq.top();
             pq.pop();
-            temp->next=temp1;
-            temp=temp->next;
+            tail->next = node;
+            tail = tail->next;
+            if (node->next != nullptr) {
+                pq.push({node->next->val, node->next});
+            }
         }
-        return head;
+        return dummy.next;
     }
 };
