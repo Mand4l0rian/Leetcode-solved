@@ -9,28 +9,61 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
+// MY SOLUTION (a bit complex but same complexity)
+// class Solution {
+// public:
+//     vector<int> rightSideView(TreeNode* root) {
+//         vector<int> ans;
+//         if(root==nullptr) return ans;
+//         queue<pair<TreeNode*,int>> q;
+//         q.push({root,1});
+//         TreeNode* Node=root;
+//         int level=1;
+//         while(!q.empty()){
+//             TreeNode* curnode=q.front().first;
+//             int curlevel=q.front().second;
+//             q.pop();
+//             if(curlevel!=level){
+//                 ans.push_back(Node->val);
+//             }
+//             Node=curnode;
+//             level=curlevel;
+//             if(curnode->left!=nullptr) q.push({curnode->left,curlevel+1});
+//             if(curnode->right!=nullptr) q.push({curnode->right,curlevel+1});
+//         }
+//         ans.push_back(Node->val);
+//         return ans;
+//     }
+// };
+
+// STANDARD BFS SOLUTION
 class Solution {
 public:
-    vector<int> rightSideView(TreeNode* root) {
-        vector<int> ans;
-        if(root==nullptr) return ans;
-        queue<pair<TreeNode*,int>> q;
-        q.push({root,1});
-        TreeNode* Node=root;
-        int level=1;
-        while(!q.empty()){
-            TreeNode* curnode=q.front().first;
-            int curlevel=q.front().second;
+vector<int> rightSideView(TreeNode* root) {
+    vector<int> ans;
+    if (root == nullptr) return ans;
+
+    queue<TreeNode*> q;
+    q.push(root);
+
+    while (!q.empty()) {
+        int n = q.size();
+
+        for (int i = 0; i < n; i++) {
+            TreeNode* curr = q.front();
             q.pop();
-            if(curlevel!=level){
-                ans.push_back(Node->val);
-            }
-            Node=curnode;
-            level=curlevel;
-            if(curnode->left!=nullptr) q.push({curnode->left,curlevel+1});
-            if(curnode->right!=nullptr) q.push({curnode->right,curlevel+1});
+
+            if (i == n - 1)
+                ans.push_back(curr->val);
+
+            if (curr->left)
+                q.push(curr->left);
+
+            if (curr->right)
+                q.push(curr->right);
         }
-        ans.push_back(Node->val);
-        return ans;
     }
+
+    return ans;
+}
 };
