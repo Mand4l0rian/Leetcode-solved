@@ -13,7 +13,7 @@
 class Solution {
 public:
     TreeNode* buildTree(vector<int>& inorder, vector<int>& postorder) {
-        map<int, int> inMap;
+        unordered_map<int, int> inMap;
 
         for (int i = 0; i < inorder.size(); i++) {
             inMap[inorder[i]] = i;
@@ -27,7 +27,7 @@ public:
 
     TreeNode* buildTree(vector<int>& postorder, int postStart, int postEnd,
                         vector<int>& inorder, int inStart, int inEnd,
-                        map<int, int>& inMap) {
+                        unordered_map<int, int>& inMap) {
 
         if (postStart > postEnd || inStart > inEnd)
             return NULL;
