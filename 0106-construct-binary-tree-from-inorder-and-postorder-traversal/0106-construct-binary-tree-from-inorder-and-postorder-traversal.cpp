@@ -12,34 +12,43 @@
  */
 class Solution {
 public:
-    TreeNode* solve(vector<int>& inorder, vector<int>& postorder, int inStart,
-                    int inEnd, int& postIndex, unordered_map<int, int>& mp) {
+    TreeNode* buildTree(vector<int>& inorder, vector<int>& postorder) {
+        map<int, int> inMap;
 
-        if (inStart > inEnd)
-            return nullptr;
+        for (int i = 0; i < inorder.size(); i++) {
+            inMap[inorder[i]] = i;
+        }
 
-        int rootVal = postorder[postIndex--];
-        TreeNode* root = new TreeNode(rootVal);
-
-        int mid = mp[rootVal];
-
-        // Postorder is: left -> right -> root
-        // Since we're going backwards, build right first.
-        root->right = solve(inorder, postorder, mid + 1, inEnd, postIndex, mp);
-
-        root->left = solve(inorder, postorder, inStart, mid - 1, postIndex, mp);
+        TreeNode* root = buildTree(postorder, 0, postorder.size() - 1, inorder,
+                                   0, inorder.size() - 1, inMap);
 
         return root;
     }
 
-    TreeNode* buildTree(vector<int>& inorder, vector<int>& postorder) {
-        unordered_map<int, int> mp;
+    TreeNode* buildTree(vector<int>& postorder, int postStart, int postEnd,
+                        vector<int>& inorder, int inStart, int inEnd,
+                        map<int, int>& inMap) {
 
-        for (int i = 0; i < inorder.size(); i++)
-            mp[inorder[i]] = i;
+        if (postStart > postEnd || inStart > inEnd)
+            return NULL;
 
-        int postIndex = postorder.size() - 1;
+        // Root is the LAST element in postorder
+        TreeNode* root = new TreeNode(postorder[postEnd]);
 
-        return solve(inorder, postorder, 0, inorder.size() - 1, postIndex, mp);
+        // Find root in inorder
+        int inRoot = inMap[root->val];
+
+        // Number of nodes in left subtree
+        int numsLeft = inRoot - inStart;
+
+        // Build left subtree
+        root->left = buildTree(postorder, postStart, postStart + numsLeft - 1,
+                               inorder, inStart, inRoot - 1, inMap);
+
+        // Build right subtree
+        root->right = buildTree(postorder, postStart + numsLeft, postEnd - 1,
+                                inorder, inRoot + 1, inEnd, inMap);
+
+        return root;
     }
 };
