@@ -12,37 +12,35 @@
  */
 class Solution {
 public:
-    TreeNode* solve(vector<int>& preorder, int preStart, int preEnd,
-                    vector<int>& inorder, int inStart, int inEnd,
-                    map<int, int>& inMap) {
+    TreeNode* solve(vector<int>& preorder, vector<int>& inorder, int inStart,
+                    int inEnd, int& preIndex, unordered_map<int, int>& mp) {
 
-        if (preStart > preEnd || inStart > inEnd)
-            return NULL;
+        if (inStart > inEnd)
+            return nullptr;
 
-        TreeNode* root = new TreeNode(preorder[preStart]);
+        // First element in preorder is the root
+        int rootVal = preorder[preIndex++];
+        TreeNode* root = new TreeNode(rootVal);
 
-        int inRoot = inMap[root->val];
-        int numsLeft = inRoot - inStart;
+        // Find root position in inorder
+        int mid = mp[rootVal];
 
-        root->left = solve(preorder, preStart + 1, preStart + numsLeft, inorder,
-                           inStart, inRoot - 1, inMap);
+        // Preorder: root -> left -> right
+        root->left = solve(preorder, inorder, inStart, mid - 1, preIndex, mp);
 
-        root->right = solve(preorder, preStart + numsLeft + 1, preEnd, inorder,
-                            inRoot + 1, inEnd, inMap);
+        root->right = solve(preorder, inorder, mid + 1, inEnd, preIndex, mp);
 
         return root;
     }
+
     TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
+        unordered_map<int, int> mp;
 
-        map<int, int> inMap;
+        for (int i = 0; i < inorder.size(); i++)
+            mp[inorder[i]] = i;
 
-        for (int i = 0; i < inorder.size(); i++) {
-            inMap[inorder[i]] = i;
-        }
+        int preIndex = 0;
 
-        TreeNode* root = solve(preorder, 0, preorder.size() - 1, inorder, 0,
-                               inorder.size() - 1, inMap);
-
-        return root;
+        return solve(preorder, inorder, 0, inorder.size() - 1, preIndex, mp);
     }
 };
