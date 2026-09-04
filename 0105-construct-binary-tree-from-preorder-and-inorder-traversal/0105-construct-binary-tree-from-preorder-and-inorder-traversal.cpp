@@ -6,7 +6,8 @@
  *     TreeNode *right;
  *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
  *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
- *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left),
+ * right(right) {}
  * };
  */
 class Solution {
@@ -19,11 +20,8 @@ public:
             inMap[inorder[i]] = i;
         }
 
-        TreeNode* root = buildTree(
-            preorder, 0, preorder.size() - 1,
-            inorder, 0, inorder.size() - 1,
-            inMap
-        );
+        TreeNode* root = buildTree(preorder, 0, preorder.size() - 1, inorder, 0,
+                                   inorder.size() - 1, inMap);
 
         return root;
     }
@@ -40,25 +38,11 @@ public:
         int inRoot = inMap[root->val];
         int numsLeft = inRoot - inStart;
 
-        root->left = buildTree(
-            preorder,
-            preStart + 1,
-            preStart + numsLeft,
-            inorder,
-            inStart,
-            inRoot - 1,
-            inMap
-        );
+        root->left = buildTree(preorder, preStart + 1, preStart + numsLeft,
+                               inorder, inStart, inRoot - 1, inMap);
 
-        root->right = buildTree(
-            preorder,
-            preStart + numsLeft + 1,
-            preEnd,
-            inorder,
-            inRoot + 1,
-            inEnd,
-            inMap
-        );
+        root->right = buildTree(preorder, preStart + numsLeft + 1, preEnd,
+                                inorder, inRoot + 1, inEnd, inMap);
 
         return root;
     }
