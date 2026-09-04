@@ -12,35 +12,43 @@
  */
 class Solution {
 public:
-    TreeNode* solve(vector<int>& preorder, vector<int>& inorder, int inStart,
-                    int inEnd, int& preIndex, unordered_map<int, int>& mp) {
+    TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
+        unordered_map<int, int> inMap;
 
-        if (inStart > inEnd)
-            return nullptr;
+        for (int i = 0; i < inorder.size(); i++) {
+            inMap[inorder[i]] = i;
+        }
 
-        // First element in preorder is the root
-        int rootVal = preorder[preIndex++];
-        TreeNode* root = new TreeNode(rootVal);
-
-        // Find root position in inorder
-        int mid = mp[rootVal];
-
-        // Preorder: root -> left -> right
-        root->left = solve(preorder, inorder, inStart, mid - 1, preIndex, mp);
-
-        root->right = solve(preorder, inorder, mid + 1, inEnd, preIndex, mp);
+        TreeNode* root = buildTree(preorder, 0, preorder.size() - 1, inorder, 0,
+                                   inorder.size() - 1, inMap);
 
         return root;
     }
 
-    TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
-        unordered_map<int, int> mp;
+    TreeNode* buildTree(vector<int>& preorder, int preStart, int preEnd,
+                        vector<int>& inorder, int inStart, int inEnd,
+                        unordered_map<int, int>& inMap) {
 
-        for (int i = 0; i < inorder.size(); i++)
-            mp[inorder[i]] = i;
+        if (preStart > preEnd || inStart > inEnd)
+            return NULL;
 
-        int preIndex = 0;
+        // Root is the FIRST element in preorder
+        TreeNode* root = new TreeNode(preorder[preStart]);
 
-        return solve(preorder, inorder, 0, inorder.size() - 1, preIndex, mp);
+        // Find root in inorder
+        int inRoot = inMap[root->val];
+
+        // Number of nodes in left subtree
+        int numsLeft = inRoot - inStart;
+
+        // Build left subtree
+        root->left = buildTree(preorder, preStart + 1, preStart + numsLeft,
+                               inorder, inStart, inRoot - 1, inMap);
+
+        // Build right subtree
+        root->right = buildTree(preorder, preStart + numsLeft + 1, preEnd,
+                                inorder, inRoot + 1, inEnd, inMap);
+
+        return root;
     }
 };
