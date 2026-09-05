@@ -11,25 +11,12 @@
  */
 class Solution {
 public:
-    bool ans = true;
-
-    void solve(long long lowerbound, long long upperbound, TreeNode* root) {
-        if(root == nullptr) return;
-
-        if(root->val > lowerbound && root->val < upperbound && ans) {
-            solve(lowerbound, root->val, root->left);
-
-            if(!ans) return;
-
-            solve(root->val, upperbound, root->right);
-        }
-        else {
-            ans = false;
-        }
+    bool solve(TreeNode* root, long long low, long long high) {
+        if(root == nullptr) return true;
+        if(root->val <= low || root->val >= high) return false;
+        return (solve(root->left, low, root->val) && solve(root->right, root->val, high));
     }
-
     bool isValidBST(TreeNode* root) {
-        solve(LLONG_MIN, LLONG_MAX, root);
-        return ans;
+        return solve(root, LLONG_MIN, LLONG_MAX);
     }
 };
