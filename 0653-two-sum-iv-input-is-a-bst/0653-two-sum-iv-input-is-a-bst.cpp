@@ -11,21 +11,58 @@
  */
 class Solution {
 public:
-    bool ans=false;
-    void solve(int& k,TreeNode* root,unordered_map<int,int>& mpp){
-        if(!root || ans) return;
-        int diff=k-root->val;
-        if(mpp.find(diff)!=mpp.end()){
-            ans=true;
-        }else{
-            mpp[root->val]++;
-            solve(k,root->left,mpp);
-            solve(k,root->right,mpp);
-        }
-    }
     bool findTarget(TreeNode* root, int k) {
-        unordered_map<int,int> mpp;
-        solve(k,root,mpp);
-        return ans;
+        if (!root) return false;
+
+        stack<TreeNode*> s1, s2;
+        TreeNode* cur1 = root;
+        TreeNode* cur2 = root;
+
+        // Initialize iterator for smallest values
+        while (cur1) {
+            s1.push(cur1);
+            cur1 = cur1->left;
+        }
+
+        // Initialize iterator for largest values
+        while (cur2) {
+            s2.push(cur2);
+            cur2 = cur2->right;
+        }
+
+        while (!s1.empty() && !s2.empty() && s1.top() != s2.top()) {
+            TreeNode* smallest = s1.top();
+            TreeNode* largest = s2.top();
+
+            int sum = smallest->val + largest->val;
+
+            if (sum == k)
+                return true;
+
+            if (sum < k) {
+                // Move to next larger value
+                TreeNode* node = s1.top();
+                s1.pop();
+
+                node = node->right;
+                while (node) {
+                    s1.push(node);
+                    node = node->left;
+                }
+            } 
+            else {
+                // Move to next smaller value
+                TreeNode* node = s2.top();
+                s2.pop();
+
+                node = node->left;
+                while (node) {
+                    s2.push(node);
+                    node = node->right;
+                }
+            }
+        }
+
+        return false;
     }
 };
