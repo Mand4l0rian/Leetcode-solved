@@ -351,6 +351,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0200-number-of-islands) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0662-maximum-width-of-binary-tree) |
+| [0785-is-graph-bipartite](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0785-is-graph-bipartite) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [0994-rotting-oranges](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0994-rotting-oranges) |
 ## Quickselect
@@ -428,6 +429,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0543-diameter-of-binary-tree](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0543-diameter-of-binary-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0662-maximum-width-of-binary-tree) |
+| [0785-is-graph-bipartite](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0785-is-graph-bipartite) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 ## Binary Tree
 |  |
@@ -494,8 +496,18 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0133-clone-graph](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0133-clone-graph) |
+| [0785-is-graph-bipartite](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0785-is-graph-bipartite) |
 ## Union-Find
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0200-number-of-islands) |
+| [0785-is-graph-bipartite](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0785-is-graph-bipartite) |
+## Graph Coloring
+|  |
+| ------- |
+| [0785-is-graph-bipartite](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0785-is-graph-bipartite) |
+## Bipartite Graph
+|  |
+| ------- |
+| [0785-is-graph-bipartite](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0785-is-graph-bipartite) |
 <!---LeetCode Topics End-->
