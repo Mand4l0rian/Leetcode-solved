@@ -72,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0153-find-minimum-in-rotated-sorted-array) |
+| [0200-number-of-islands](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0200-number-of-islands) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0215-kth-largest-element-in-an-array) |
 | [0239-sliding-window-maximum](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0239-sliding-window-maximum) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0240-search-a-2d-matrix-ii) |
@@ -150,6 +151,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0037-sudoku-solver](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0037-sudoku-solver) |
+| [0200-number-of-islands](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0200-number-of-islands) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0240-search-a-2d-matrix-ii) |
 | [0994-rotting-oranges](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0994-rotting-oranges) |
 ## String
@@ -346,6 +348,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0133-clone-graph](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0133-clone-graph) |
 | [0199-binary-tree-right-side-view](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0199-binary-tree-right-side-view) |
+| [0200-number-of-islands](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0200-number-of-islands) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0662-maximum-width-of-binary-tree) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
@@ -418,6 +421,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0144-binary-tree-preorder-traversal](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0199-binary-tree-right-side-view) |
+| [0200-number-of-islands](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0200-number-of-islands) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
@@ -490,4 +494,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0133-clone-graph](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0133-clone-graph) |
+## Union-Find
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0200-number-of-islands) |
 <!---LeetCode Topics End-->
