@@ -119,19 +119,37 @@
 // };
 
 // TABULATION:
+// class Solution {
+// public:
+//     int minPathSum(vector<vector<int>>& grid) {
+//         vector<vector<int>> dp(grid.size()+1,vector<int>(grid[0].size()+1,INT_MAX));
+//         for(int i=grid.size()-1;i>=0;i--){
+//             for(int j=grid[0].size()-1;j>=0;j--){
+//                 if(i==grid.size()-1 && j==grid[0].size()-1){
+//                     dp[i][j]= grid[i][j];
+//                     continue;
+//                 }
+//                 dp[i][j]=grid[i][j]+min(dp[i+1][j],dp[i][j+1]);
+//             }
+//         }
+//         return dp[0][0];
+//     }
+// };
+
+// SPACE OPTIMIZATION
 class Solution {
 public:
     int minPathSum(vector<vector<int>>& grid) {
-        vector<vector<int>> dp(grid.size()+1,vector<int>(grid[0].size()+1,INT_MAX));
+        vector<int> dp(grid[0].size()+1,INT_MAX);
         for(int i=grid.size()-1;i>=0;i--){
             for(int j=grid[0].size()-1;j>=0;j--){
                 if(i==grid.size()-1 && j==grid[0].size()-1){
-                    dp[i][j]= grid[i][j];
+                    dp[j]= grid[i][j];
                     continue;
                 }
-                dp[i][j]=grid[i][j]+min(dp[i+1][j],dp[i][j+1]);
+                dp[j]=grid[i][j]+min(dp[j],dp[j+1]);
             }
         }
-        return dp[0][0];
+        return dp[0];
     }
 };
