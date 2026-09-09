@@ -65,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0040-combination-sum-ii](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0046-permutations) |
 | [0051-n-queens](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0051-n-queens) |
+| [0063-unique-paths-ii](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0063-unique-paths-ii) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0084-largest-rectangle-in-histogram](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0084-largest-rectangle-in-histogram) |
 | [0090-subsets-ii](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0090-subsets-ii) |
@@ -127,6 +128,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0062-unique-paths) |
+| [0063-unique-paths-ii](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0063-unique-paths-ii) |
 | [0070-climbing-stairs](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0070-climbing-stairs) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0131-palindrome-partitioning](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0131-palindrome-partitioning) |
@@ -157,6 +159,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0037-sudoku-solver](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0037-sudoku-solver) |
+| [0063-unique-paths-ii](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0063-unique-paths-ii) |
 | [0200-number-of-islands](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0200-number-of-islands) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0240-search-a-2d-matrix-ii) |
 | [0994-rotting-oranges](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0994-rotting-oranges) |
