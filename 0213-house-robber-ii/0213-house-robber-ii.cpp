@@ -40,13 +40,6 @@
 // TABULATION:
 class Solution {
 public:
-    int solve(int ind, int& end, vector<int>& nums, vector<int>& dp){
-        if(ind>=end) return 0;
-        if(dp[ind]!=-1) return dp[ind];
-        int take= nums[ind]+ solve(ind+2,end,nums,dp);
-        int nottake= solve(ind+1,end,nums,dp);
-        return dp[ind]=max(take,nottake);
-    }
     int rob(vector<int>& nums) {
         int n=nums.size();
         if(n==1) return nums[0];
