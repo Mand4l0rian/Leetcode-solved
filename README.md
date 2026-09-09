@@ -126,6 +126,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0062-unique-paths](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0070-climbing-stairs) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0131-palindrome-partitioning](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0131-palindrome-partitioning) |
@@ -198,6 +199,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0002-add-two-numbers](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0002-add-two-numbers) |
 | [0060-permutation-sequence](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0060-permutation-sequence) |
+| [0062-unique-paths](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0070-climbing-stairs) |
 | [1903-largest-odd-number-in-string](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/1903-largest-odd-number-in-string) |
 ## Trie
@@ -520,4 +522,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0070-climbing-stairs) |
+## Combinatorics
+|  |
+| ------- |
+| [0062-unique-paths](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0062-unique-paths) |
 <!---LeetCode Topics End-->
