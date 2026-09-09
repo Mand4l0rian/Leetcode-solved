@@ -30,13 +30,28 @@
 // };
 
 // TABULATION:
+// class Solution {
+// public:
+//     int rob(vector<int>& nums) {
+//         vector<int> dp(nums.size()+2,0);
+//         for(int i=nums.size()-1;i>=0;i--){
+//             dp[i]=max(dp[i+1], nums[i]+dp[i+2]);
+//         }
+//         return dp[0];
+//     }
+// };
+
+// SPACE OPTIMIZATION:
 class Solution {
 public:
     int rob(vector<int>& nums) {
-        vector<int> dp(nums.size()+2,0);
+        int next2=0;
+        int next1=0;
         for(int i=nums.size()-1;i>=0;i--){
-            dp[i]=max(dp[i+1], nums[i]+dp[i+2]);
+            int ans=max(next1, nums[i]+next2);
+            next2=next1;
+            next1=ans;
         }
-        return dp[0];
+        return next1;
     }
 };
