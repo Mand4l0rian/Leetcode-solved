@@ -103,18 +103,41 @@
 
 
 // RECURSION:
+// class Solution {
+// public:
+//     int solve(int ind, int target, vector<int>& nums){
+//         if(ind==nums.size()){
+//             if(target==0) return 1;
+//             else return 0;
+//         }
+//         int add=solve(ind+1,target+nums[ind],nums);
+//         int sub=solve(ind+1,target-nums[ind],nums);
+//         return add+sub;
+//     }
+//     int findTargetSumWays(vector<int>& nums, int target) {
+//         return solve(0,target,nums);
+//     }
+// };
+
+// MEMOIZATION:
 class Solution {
 public:
-    int solve(int ind, int target, vector<int>& nums){
+    int solve(int ind, int target, int& low, vector<int>& nums, vector<vector<int>>& dp){
         if(ind==nums.size()){
             if(target==0) return 1;
             else return 0;
         }
-        int add=solve(ind+1,target+nums[ind],nums);
-        int sub=solve(ind+1,target-nums[ind],nums);
-        return add+sub;
+        if(dp[ind][target-low]!=-1) return dp[ind][target-low];
+        int add=solve(ind+1,target+nums[ind],low,nums,dp);
+        int sub=solve(ind+1,target-nums[ind],low,nums,dp);
+        return dp[ind][target-low]=add+sub;
     }
     int findTargetSumWays(vector<int>& nums, int target) {
-        return solve(0,target,nums);
+        int total=accumulate(nums.begin(),nums.end(),0);
+        int low=target-total;
+        int high=target+total;
+        int size=high-low+1;
+        vector<vector<int>> dp(nums.size(),vector<int>(size,-1));
+        return solve(0,target,low,nums,dp);
     }
 };
