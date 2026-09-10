@@ -141,6 +141,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0322-coin-change](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0322-coin-change) |
 | [0410-split-array-largest-sum](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0410-split-array-largest-sum) |
 | [0494-target-sum](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0494-target-sum) |
+| [1143-longest-common-subsequence](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/1143-longest-common-subsequence) |
 ## Greedy
 |  |
 | ------- |
@@ -182,6 +183,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0451-sort-characters-by-frequency](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0451-sort-characters-by-frequency) |
 | [0796-rotate-string](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0796-rotate-string) |
 | [1021-remove-outermost-parentheses](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/1021-remove-outermost-parentheses) |
+| [1143-longest-common-subsequence](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/1143-longest-common-subsequence) |
 | [1903-largest-odd-number-in-string](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/1903-largest-odd-number-in-string) |
 ## Stack
 |  |
@@ -551,4 +553,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0494-target-sum](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0494-target-sum) |
+## Longest Common Subsequence
+|  |
+| ------- |
+| [1143-longest-common-subsequence](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/1143-longest-common-subsequence) |
 <!---LeetCode Topics End-->
