@@ -144,6 +144,30 @@
 // };
 
 // TABULATION:
+// class Solution {
+// public:
+//     int findTargetSumWays(vector<int>& nums, int target) {
+//         int total=accumulate(nums.begin(),nums.end(),0);
+//         if(abs(target)>total) return 0;
+//         int low=target-total;
+//         int high=target+total;
+//         int size=high-low+1;
+//         vector<vector<int>> dp(nums.size()+1,vector<int>(size,0));
+//         dp[nums.size()][-low]=1;
+//         for(int i=nums.size()-1;i>=0;i--){
+//             for(int j=size-1;j>=0;j--){
+//                 int add=0,sub=0;
+//                 if(j+nums[i]<size)  add=dp[i+1][j+nums[i]];
+//                 if(j-nums[i]>=0)    sub=dp[i+1][j-nums[i]];
+//                 dp[i][j]=add+sub;
+//             }
+//         }
+//         return dp[0][target-low];
+//     }
+// };
+
+// SPACE OPTIMIZATION:
+// SPACE OPTIMIZATION:
 class Solution {
 public:
     int findTargetSumWays(vector<int>& nums, int target) {
@@ -152,16 +176,18 @@ public:
         int low=target-total;
         int high=target+total;
         int size=high-low+1;
-        vector<vector<int>> dp(nums.size()+1,vector<int>(size,0));
-        dp[nums.size()][-low]=1;
+        vector<int> prev(size,0);
+        prev[-low]=1;
         for(int i=nums.size()-1;i>=0;i--){
-            for(int j=size-1;j>=0;j--){
+            vector<int> cur(size,0);
+            for(int j=0;j<size;j++){
                 int add=0,sub=0;
-                if(j+nums[i]<size)  add=dp[i+1][j+nums[i]];
-                if(j-nums[i]>=0)    sub=dp[i+1][j-nums[i]];
-                dp[i][j]=add+sub;
+                if(j+nums[i]<size) add=prev[j+nums[i]];
+                if(j-nums[i]>=0) sub=prev[j-nums[i]];
+                cur[j]=add+sub;
             }
+            prev=cur;
         }
-        return dp[0][target-low];
+        return prev[target-low];
     }
 };
