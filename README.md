@@ -80,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0215-kth-largest-element-in-an-array](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0215-kth-largest-element-in-an-array) |
 | [0239-sliding-window-maximum](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0239-sliding-window-maximum) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0240-search-a-2d-matrix-ii) |
+| [0322-coin-change](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0322-coin-change) |
 | [0347-top-k-frequent-elements](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0347-top-k-frequent-elements) |
 | [0410-split-array-largest-sum](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0410-split-array-largest-sum) |
 | [0455-assign-cookies](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0455-assign-cookies) |
@@ -136,6 +137,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0131-palindrome-partitioning](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0131-palindrome-partitioning) |
 | [0198-house-robber](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0213-house-robber-ii) |
+| [0322-coin-change](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0322-coin-change) |
 | [0410-split-array-largest-sum](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0410-split-array-largest-sum) |
 ## Greedy
 |  |
@@ -363,6 +365,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0133-clone-graph](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0133-clone-graph) |
 | [0199-binary-tree-right-side-view](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0199-binary-tree-right-side-view) |
 | [0200-number-of-islands](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0200-number-of-islands) |
+| [0322-coin-change](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0322-coin-change) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0662-maximum-width-of-binary-tree) |
 | [0785-is-graph-bipartite](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0785-is-graph-bipartite) |
@@ -532,4 +535,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0062-unique-paths) |
+## Knapsack Problem
+|  |
+| ------- |
+| [0322-coin-change](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0322-coin-change) |
+## Complete Knapsack
+|  |
+| ------- |
+| [0322-coin-change](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0322-coin-change) |
 <!---LeetCode Topics End-->
