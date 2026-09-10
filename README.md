@@ -84,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0347-top-k-frequent-elements) |
 | [0410-split-array-largest-sum](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0410-split-array-largest-sum) |
 | [0455-assign-cookies](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0455-assign-cookies) |
+| [0494-target-sum](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0494-target-sum) |
 | [0496-next-greater-element-i](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0496-next-greater-element-i) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0540-single-element-in-a-sorted-array) |
 | [0704-binary-search](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0704-binary-search) |
@@ -139,6 +140,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0213-house-robber-ii](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0213-house-robber-ii) |
 | [0322-coin-change](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0322-coin-change) |
 | [0410-split-array-largest-sum](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0410-split-array-largest-sum) |
+| [0494-target-sum](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0494-target-sum) |
 ## Greedy
 |  |
 | ------- |
@@ -309,6 +311,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0051-n-queens](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0051-n-queens) |
 | [0090-subsets-ii](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0090-subsets-ii) |
 | [0131-palindrome-partitioning](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0131-palindrome-partitioning) |
+| [0494-target-sum](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0494-target-sum) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -539,8 +542,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0322-coin-change](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0322-coin-change) |
+| [0494-target-sum](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0494-target-sum) |
 ## Complete Knapsack
 |  |
 | ------- |
 | [0322-coin-change](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0322-coin-change) |
+## 0-1 Knapsack
+|  |
+| ------- |
+| [0494-target-sum](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0494-target-sum) |
 <!---LeetCode Topics End-->
