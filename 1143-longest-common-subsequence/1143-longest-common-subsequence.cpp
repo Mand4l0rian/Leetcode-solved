@@ -121,19 +121,39 @@
 // };
 
 // TABULATION:
+// class Solution {
+// public:
+//     int longestCommonSubsequence(string text1, string text2) {
+//         vector<vector<int>> dp(text1.size()+1,vector<int>(text2.size()+1,0));
+//         for(int i=text1.size()-1;i>=0;i--){
+//             for(int j=text2.size()-1;j>=0;j--){
+//                 if(text1[i]==text2[j]){
+//                     dp[i][j]=1+dp[i+1][j+1];
+//                     continue;
+//                 }
+//                 dp[i][j]=max(dp[i+1][j],dp[i][j+1]);
+//             }
+//         }
+//         return dp[0][0];
+//     }
+// };
+
+// SPACE OPTIMIZATION:
 class Solution {
 public:
     int longestCommonSubsequence(string text1, string text2) {
-        vector<vector<int>> dp(text1.size()+1,vector<int>(text2.size()+1,0));
+        vector<int> dp(text2.size()+1,0);
+        vector<int> temp(text2.size()+1,0);
         for(int i=text1.size()-1;i>=0;i--){
             for(int j=text2.size()-1;j>=0;j--){
                 if(text1[i]==text2[j]){
-                    dp[i][j]=1+dp[i+1][j+1];
+                    temp[j]=1+dp[j+1];
                     continue;
                 }
-                dp[i][j]=max(dp[i+1][j],dp[i][j+1]);
+                temp[j]=max(dp[j],temp[j+1]);
             }
+            dp=temp;
         }
-        return dp[0][0];
+        return dp[0];
     }
 };
