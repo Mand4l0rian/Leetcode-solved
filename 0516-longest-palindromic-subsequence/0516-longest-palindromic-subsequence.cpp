@@ -43,16 +43,33 @@
 
 
 // TABULATION:
+// class Solution {
+// public:
+//     int longestPalindromeSubseq(string s) {
+//         vector<vector<int>> dp(s.size()+1,vector<int>(s.size()+1,0));
+//         for(int i=s.size()-1;i>=0;i--){
+//             for(int j=s.size()-1;j>=0;j--){
+//                 if(s[i]==s[s.size()-1-j]) dp[i][j]=1+dp[i+1][j+1];
+//                 else dp[i][j]=max(dp[i+1][j],dp[i][j+1]);
+//             }
+//         }
+//         return dp[0][0];
+//     }
+// };
+
+// SPACE OPTIMIZATION:
 class Solution {
 public:
     int longestPalindromeSubseq(string s) {
-        vector<vector<int>> dp(s.size()+1,vector<int>(s.size()+1,0));
+        vector<int> dp(s.size()+1,0);
+        vector<int> temp(s.size()+1,0);
         for(int i=s.size()-1;i>=0;i--){
             for(int j=s.size()-1;j>=0;j--){
-                if(s[i]==s[s.size()-1-j]) dp[i][j]=1+dp[i+1][j+1];
-                else dp[i][j]=max(dp[i+1][j],dp[i][j+1]);
+                if(s[i]==s[s.size()-1-j]) temp[j]=1+dp[j+1];
+                else temp[j]=max(dp[j],temp[j+1]);
             }
+            dp=temp;
         }
-        return dp[0][0];
+        return dp[0];
     }
 };
