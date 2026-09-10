@@ -93,7 +93,8 @@
 //     int solve(int ind1, int ind2, string& s1, string& s2){
 //         if(ind1==s1.size() || ind2==s2.size()) return 0;
 //         if(s1[ind1]==s2[ind2]){
-//             return 1+solve(ind1+1,ind2+1,s1,s2);
+//             return 1+solve(ind1+1,ind2+1,s1,s2); // NOTE: direct return, no exploring nottake
+                                                    // when we have take (matching strings).
 //         }
 //         return max(solve(ind1+1,ind2,s1,s2), solve(ind1,ind2+1,s1,s2));
 //     }
@@ -103,18 +104,36 @@
 // };
 
 // MEMOIZATION:
+// class Solution {
+// public:
+//     int solve(int ind1, int ind2, string& s1, string& s2, vector<vector<int>>& dp){
+//         if(ind1==s1.size() || ind2==s2.size()) return 0;
+//         if(dp[ind1][ind2]!=-1) return dp[ind1][ind2];
+//         if(s1[ind1]==s2[ind2]){
+//             return dp[ind1][ind2]=1+solve(ind1+1,ind2+1,s1,s2,dp);
+//         }
+//         return dp[ind1][ind2]=max(solve(ind1+1,ind2,s1,s2,dp), solve(ind1,ind2+1,s1,s2,dp));
+//     }
+//     int longestCommonSubsequence(string text1, string text2) {
+//         vector<vector<int>> dp(text1.size(),vector<int>(text2.size(),-1));
+//         return solve(0,0,text1,text2,dp);
+//     }
+// };
+
+// TABULATION:
 class Solution {
 public:
-    int solve(int ind1, int ind2, string& s1, string& s2, vector<vector<int>>& dp){
-        if(ind1==s1.size() || ind2==s2.size()) return 0;
-        if(dp[ind1][ind2]!=-1) return dp[ind1][ind2];
-        if(s1[ind1]==s2[ind2]){
-            return dp[ind1][ind2]=1+solve(ind1+1,ind2+1,s1,s2,dp);
-        }
-        return dp[ind1][ind2]=max(solve(ind1+1,ind2,s1,s2,dp), solve(ind1,ind2+1,s1,s2,dp));
-    }
     int longestCommonSubsequence(string text1, string text2) {
-        vector<vector<int>> dp(text1.size(),vector<int>(text2.size(),-1));
-        return solve(0,0,text1,text2,dp);
+        vector<vector<int>> dp(text1.size()+1,vector<int>(text2.size()+1,0));
+        for(int i=text1.size()-1;i>=0;i--){
+            for(int j=text2.size()-1;j>=0;j--){
+                if(text1[i]==text2[j]){
+                    dp[i][j]=1+dp[i+1][j+1];
+                    continue;
+                }
+                dp[i][j]=max(dp[i+1][j],dp[i][j+1]);
+            }
+        }
+        return dp[0][0];
     }
 };
