@@ -120,24 +120,48 @@
 // };
 
 // MEMOIZATION:
+// class Solution {
+// public:
+//     int solve(int ind, int target, int& low, vector<int>& nums, vector<vector<int>>& dp){
+//         if(ind==nums.size()){
+//             if(target==0) return 1;
+//             else return 0;
+//         }
+//         if(dp[ind][target-low]!=-1) return dp[ind][target-low];
+//         int add=solve(ind+1,target+nums[ind],low,nums,dp);
+//         int sub=solve(ind+1,target-nums[ind],low,nums,dp);
+//         return dp[ind][target-low]=add+sub;
+//     }
+//     int findTargetSumWays(vector<int>& nums, int target) {
+//         int total=accumulate(nums.begin(),nums.end(),0);
+//         if(abs(target)>total) return 0;
+//         int low=target-total;
+//         int high=target+total;
+//         int size=high-low+1;
+//         vector<vector<int>> dp(nums.size(),vector<int>(size,-1));
+//         return solve(0,target,low,nums,dp);
+//     }
+// };
+
+// TABULATION:
 class Solution {
 public:
-    int solve(int ind, int target, int& low, vector<int>& nums, vector<vector<int>>& dp){
-        if(ind==nums.size()){
-            if(target==0) return 1;
-            else return 0;
-        }
-        if(dp[ind][target-low]!=-1) return dp[ind][target-low];
-        int add=solve(ind+1,target+nums[ind],low,nums,dp);
-        int sub=solve(ind+1,target-nums[ind],low,nums,dp);
-        return dp[ind][target-low]=add+sub;
-    }
     int findTargetSumWays(vector<int>& nums, int target) {
         int total=accumulate(nums.begin(),nums.end(),0);
+        if(abs(target)>total) return 0;
         int low=target-total;
         int high=target+total;
         int size=high-low+1;
-        vector<vector<int>> dp(nums.size(),vector<int>(size,-1));
-        return solve(0,target,low,nums,dp);
+        vector<vector<int>> dp(nums.size()+1,vector<int>(size,0));
+        dp[nums.size()][-low]=1;
+        for(int i=nums.size()-1;i>=0;i--){
+            for(int j=size-1;j>=0;j--){
+                int add=0,sub=0;
+                if(j+nums[i]<size)  add=dp[i+1][j+nums[i]];
+                if(j-nums[i]>=0)    sub=dp[i+1][j-nums[i]];
+                dp[i][j]=add+sub;
+            }
+        }
+        return dp[0][target-low];
     }
 };
