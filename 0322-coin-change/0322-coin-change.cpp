@@ -144,18 +144,15 @@
 //     }
 // };
 
-// TABULATION:
+// SPACE OPTIMIZATION:
 class Solution {
 public:
     int coinChange(vector<int>& coins, int amount) {
         vector<int> dp (amount+1,1e9);
         dp[0]=0;
         for(int i=coins.size()-1;i>=0;i--){
-            for(int j=1;j<=amount;j++){
-                int take=1e9;
-                if(coins[i]<=j) take=1+dp[j-coins[i]];
-                int nottake=dp[j];
-                dp[j]=min(take,nottake);
+            for(int j=coins[i];j<=amount;j++){
+                dp[j]=min(1+dp[j-coins[i]],dp[j]);
             }
         }
         return dp[amount]>=1e9?-1:dp[amount];
