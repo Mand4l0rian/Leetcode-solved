@@ -122,21 +122,43 @@
 // };
 
 // TABULATION:
+// class Solution {
+// public:
+//     int maxProfit(int k, vector<int>& prices) {
+//         vector<vector<vector<int>>> dp(prices.size()+1,vector<vector<int>>(2,vector<int>(k+1,0)));
+//         for(int i=prices.size()-1;i>=0;i--){
+//             for(int j=1;j>=0;j--){
+//                 for(int n=1;n<=k;n++){
+//                     if(j){
+//                         dp[i][j][n]=max(-prices[i]+dp[i+1][0][n],dp[i+1][1][n]);
+//                     }else{
+//                         dp[i][j][n]=max(prices[i]+dp[i][1][n-1],dp[i+1][0][n]);
+//                     }
+//                 }
+//             }
+//         }
+//         return dp[0][1][k];
+//     }
+// };
+
+// SPACE OPTIMIZATION:
 class Solution {
 public:
     int maxProfit(int k, vector<int>& prices) {
-        vector<vector<vector<int>>> dp(prices.size()+1,vector<vector<int>>(2,vector<int>(k+1,0)));
+        vector<vector<int>> dp(2,vector<int>(k+1,0));
+        vector<vector<int>> temp(2,vector<int>(k+1,0));
         for(int i=prices.size()-1;i>=0;i--){
             for(int j=1;j>=0;j--){
                 for(int n=1;n<=k;n++){
                     if(j){
-                        dp[i][j][n]=max(-prices[i]+dp[i+1][0][n],dp[i+1][1][n]);
+                        temp[j][n]=max(-prices[i]+dp[0][n],dp[1][n]);
                     }else{
-                        dp[i][j][n]=max(prices[i]+dp[i][1][n-1],dp[i+1][0][n]);
+                        temp[j][n]=max(prices[i]+temp[1][n-1],dp[0][n]);
                     }
                 }
+                dp=temp;
             }
         }
-        return dp[0][1][k];
+        return dp[1][k];
     }
 };
