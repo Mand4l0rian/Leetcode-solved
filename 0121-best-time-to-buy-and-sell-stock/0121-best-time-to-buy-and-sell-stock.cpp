@@ -51,21 +51,35 @@
 // };
 
 // SPACE OPTIMIZATION:
+// class Solution {
+// public:
+//     int maxProfit(vector<int>& prices) {
+//         vector<int> dp(2,0);
+//         vector<int> temp(2,0);
+//         for(int i=prices.size()-1;i>=0;i--){
+//             for(int j=1;j>=0;j--){
+//                 if(j==1){
+//                     temp[j]=max(-prices[i]+dp[0],dp[1]);
+//                 }else{
+//                     temp[j]=max(prices[i],dp[j]);
+//                 }
+//             }
+//             dp=temp;
+//         }
+//         return dp[1];
+//     }
+// };
+
+// MOST OPTIMAL GREEDY SOLUTION:
 class Solution {
 public:
-    int maxProfit(vector<int>& prices) {
-        vector<int> dp(2,0);
-        vector<int> temp(2,0);
-        for(int i=prices.size()-1;i>=0;i--){
-            for(int j=1;j>=0;j--){
-                if(j==1){
-                    temp[j]=max(-prices[i]+dp[0],dp[1]);
-                }else{
-                    temp[j]=max(prices[i],dp[j]);
-                }
-            }
-            dp=temp;
-        }
-        return dp[1];
+int maxProfit(vector<int>& prices) {
+    int minPrice = INT_MAX;
+    int profit = 0;
+    for (int price : prices) {
+        minPrice = min(minPrice, price);
+        profit = max(profit, price - minPrice);
     }
+    return profit;
+}
 };
