@@ -58,23 +58,23 @@
 //     }
 // };
 
-// TABULATION:
+// SPACE OPTIMIZATION:
 class Solution {
 public:
     int minDistance(string word1, string word2) {
-        vector<vector<int>> dp(word1.size()+1,vector<int>(word2.size()+1,0));
+        vector<int> dp(word2.size()+1,0);
+        vector<int> temp(word2.size()+1,0);
         for(int j=0;j<word2.size();j++){
-            dp[word1.size()][j]=word2.size()-j;
-        }
-        for(int i=0;i<word1.size();i++){
-            dp[i][word2.size()]=word1.size()-i;
+            dp[j]=word2.size()-j;
         }
         for(int i=word1.size()-1;i>=0;i--){
-            for(int j=word2.size()-1;j>=0;j--){
-                if(word1[i]==word2[j]) dp[i][j]= dp[i+1][j+1];
-                else dp[i][j]=1+min({dp[i+1][j],dp[i][j+1],dp[i+1][j+1]});
+            for(int j=word2.size();j>=0;j--){
+                if(j==word2.size()) temp[j]=word1.size()-i;
+                else if(word1[i]==word2[j]) temp[j]= dp[j+1];
+                else temp[j]=1+min({dp[j],temp[j+1],dp[j+1]});
             }
+            dp=temp;
         }
-        return dp[0][0];
+        return dp[0];
     }
 };
