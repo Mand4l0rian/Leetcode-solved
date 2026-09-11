@@ -122,19 +122,41 @@
 // };
 
 // TABULATION:
+// class Solution {
+// public:
+//     int maxProfit(vector<int>& prices) {
+//         vector<vector<int>> dp(prices.size()+2,vector<int>(2,0));
+//         for(int i=prices.size()-1;i>=0;i--){
+//             for(int j=1;j>=0;j--){
+//                 if(j){
+//                     dp[i][j]=max(-prices[i]+dp[i+1][0],dp[i+1][1]);
+//                 }else{
+//                     dp[i][j]=max(prices[i]+dp[i+2][1],dp[i+1][0]);
+//                 }
+//             }
+//         }
+//         return dp[0][1];
+//     }
+// };
+
+// SPACE OPTIMIZATION:
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
-        vector<vector<int>> dp(prices.size()+2,vector<int>(2,0));
+        vector<int> dp(2,0);
+        vector<int> temp1(2,0);
+        vector<int> temp2(2,0);
         for(int i=prices.size()-1;i>=0;i--){
             for(int j=1;j>=0;j--){
                 if(j){
-                    dp[i][j]=max(-prices[i]+dp[i+1][0],dp[i+1][1]);
+                    dp[j]=max(-prices[i]+temp1[0],temp1[1]);
                 }else{
-                    dp[i][j]=max(prices[i]+dp[i+2][1],dp[i+1][0]);
+                    dp[j]=max(prices[i]+temp2[1],temp1[0]);
                 }
             }
+            temp2=temp1;
+            temp1=dp;
         }
-        return dp[0][1];
+        return dp[1];
     }
 };
