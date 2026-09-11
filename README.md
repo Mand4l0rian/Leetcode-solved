@@ -134,6 +134,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0063-unique-paths-ii](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0064-minimum-path-sum) |
 | [0070-climbing-stairs](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0070-climbing-stairs) |
+| [0072-edit-distance](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0072-edit-distance) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0131-palindrome-partitioning](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0131-palindrome-partitioning) |
 | [0198-house-robber](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0198-house-robber) |
@@ -178,6 +179,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0014-longest-common-prefix](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0014-longest-common-prefix) |
 | [0020-valid-parentheses](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0020-valid-parentheses) |
+| [0072-edit-distance](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0072-edit-distance) |
 | [0131-palindrome-partitioning](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0131-palindrome-partitioning) |
 | [0151-reverse-words-in-a-string](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0151-reverse-words-in-a-string) |
 | [0205-isomorphic-strings](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0205-isomorphic-strings) |
