@@ -140,20 +140,39 @@
 // };
 
 // MEMOIZATION:
+// class Solution {
+// public:
+//     int solve(int ind, int prev, vector<int>& nums, vector<vector<int>>& dp){
+//         if(ind==nums.size()) return 0;
+//         if(dp[ind][prev+1]!=-1) return dp[ind][prev+1];
+//         int take=0;
+//         if(prev==-1 || nums[ind]>nums[prev]){
+//             take=1+solve(ind+1,ind,nums,dp);
+//         }
+//         int nottake=solve(ind+1,prev,nums,dp);
+//         return dp[ind][prev+1]=max(take,nottake);
+//     }
+//     int lengthOfLIS(vector<int>& nums) {
+//         vector<vector<int>> dp(nums.size(),vector<int>(nums.size()+1,-1));
+//         return solve(0,-1,nums,dp);
+//     }
+// };
+
+// TABULATION:
 class Solution {
 public:
-    int solve(int ind, int prev, vector<int>& nums, vector<vector<int>>& dp){
-        if(ind==nums.size()) return 0;
-        if(dp[ind][prev+1]!=-1) return dp[ind][prev+1];
-        int take=0;
-        if(prev==-1 || nums[ind]>nums[prev]){
-            take=1+solve(ind+1,ind,nums,dp);
-        }
-        int nottake=solve(ind+1,prev,nums,dp);
-        return dp[ind][prev+1]=max(take,nottake);
-    }
     int lengthOfLIS(vector<int>& nums) {
-        vector<vector<int>> dp(nums.size(),vector<int>(nums.size()+1,-1));
-        return solve(0,-1,nums,dp);
+        vector<vector<int>> dp(nums.size()+1,vector<int>(nums.size()+1,0));
+        for(int i=nums.size()-1;i>=0;i--){
+            for(int j=nums.size();j>=0;j--){
+                int take=0;
+                if(j==0 || nums[i]>nums[j-1]){
+                    take=1+dp[i+1][i+1];
+                }
+                int nottake=dp[i+1][j];
+                dp[i][j]=max(take,nottake);
+            }
+        }
+        return dp[0][0];
     }
 };
