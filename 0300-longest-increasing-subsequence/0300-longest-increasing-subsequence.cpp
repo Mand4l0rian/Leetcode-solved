@@ -159,20 +159,39 @@
 // };
 
 // TABULATION:
+// class Solution {
+// public:
+//     int lengthOfLIS(vector<int>& nums) {
+//         vector<vector<int>> dp(nums.size()+1,vector<int>(nums.size()+1,0));
+//         for(int i=nums.size()-1;i>=0;i--){
+//             for(int j=nums.size();j>=0;j--){
+//                 int take=0;
+//                 if(j==0 || nums[i]>nums[j-1]){
+//                     take=1+dp[i+1][i+1];
+//                 }
+//                 int nottake=dp[i+1][j];
+//                 dp[i][j]=max(take,nottake);
+//             }
+//         }
+//         return dp[0][0];
+//     }
+// };
+
+// SPACE OPTIMIZATION:
 class Solution {
 public:
     int lengthOfLIS(vector<int>& nums) {
-        vector<vector<int>> dp(nums.size()+1,vector<int>(nums.size()+1,0));
+        vector<int> dp(nums.size()+1,0);
         for(int i=nums.size()-1;i>=0;i--){
             for(int j=nums.size();j>=0;j--){
                 int take=0;
                 if(j==0 || nums[i]>nums[j-1]){
-                    take=1+dp[i+1][i+1];
+                    take=1+dp[i+1];
                 }
-                int nottake=dp[i+1][j];
-                dp[i][j]=max(take,nottake);
+                int nottake=dp[j];
+                dp[j]=max(take,nottake);
             }
         }
-        return dp[0][0];
+        return dp[0];
     }
 };
