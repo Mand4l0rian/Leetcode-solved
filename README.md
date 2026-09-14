@@ -72,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0075-sort-colors](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0075-sort-colors) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0084-largest-rectangle-in-histogram](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0084-largest-rectangle-in-histogram) |
+| [0088-merge-sorted-array](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0088-merge-sorted-array) |
 | [0090-subsets-ii](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0090-subsets-ii) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
@@ -127,6 +128,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0031-next-permutation](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0031-next-permutation) |
 | [0061-rotate-list](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0061-rotate-list) |
 | [0075-sort-colors](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0075-sort-colors) |
+| [0088-merge-sorted-array](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0088-merge-sorted-array) |
 | [0141-linked-list-cycle](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0142-linked-list-cycle-ii) |
 | [0151-reverse-words-in-a-string](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0151-reverse-words-in-a-string) |
@@ -266,6 +268,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0056-merge-intervals](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0075-sort-colors) |
+| [0088-merge-sorted-array](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0088-merge-sorted-array) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0215-kth-largest-element-in-an-array) |
 | [0242-valid-anagram](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0242-valid-anagram) |
 | [0295-find-median-from-data-stream](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0295-find-median-from-data-stream) |
