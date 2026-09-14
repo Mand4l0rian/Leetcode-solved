@@ -68,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0053-maximum-subarray) |
 | [0063-unique-paths-ii](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0064-minimum-path-sum) |
+| [0075-sort-colors](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0075-sort-colors) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0084-largest-rectangle-in-histogram](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0084-largest-rectangle-in-histogram) |
 | [0090-subsets-ii](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0090-subsets-ii) |
@@ -124,6 +125,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0019-remove-nth-node-from-end-of-list](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0031-next-permutation](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0031-next-permutation) |
 | [0061-rotate-list](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0061-rotate-list) |
+| [0075-sort-colors](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0075-sort-colors) |
 | [0141-linked-list-cycle](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0142-linked-list-cycle-ii) |
 | [0151-reverse-words-in-a-string](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0151-reverse-words-in-a-string) |
@@ -261,6 +263,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0075-sort-colors](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0075-sort-colors) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0215-kth-largest-element-in-an-array) |
 | [0242-valid-anagram](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0242-valid-anagram) |
 | [0295-find-median-from-data-stream](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0295-find-median-from-data-stream) |
@@ -415,6 +418,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Quicksort
 |  |
 | ------- |
+| [0075-sort-colors](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0075-sort-colors) |
 | [0455-assign-cookies](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0455-assign-cookies) |
 ## Tree
 |  |
@@ -579,4 +583,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0300-longest-increasing-subsequence](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0300-longest-increasing-subsequence) |
+## Bubble Sort
+|  |
+| ------- |
+| [0075-sort-colors](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0075-sort-colors) |
 <!---LeetCode Topics End-->
