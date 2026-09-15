@@ -66,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0037-sudoku-solver](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0037-sudoku-solver) |
 | [0039-combination-sum](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0040-combination-sum-ii) |
+| [0042-trapping-rain-water](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0042-trapping-rain-water) |
 | [0046-permutations](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0046-permutations) |
 | [0051-n-queens](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0051-n-queens) |
 | [0053-maximum-subarray](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0053-maximum-subarray) |
@@ -142,6 +143,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0018-4sum](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0018-4sum) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0031-next-permutation](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0031-next-permutation) |
+| [0042-trapping-rain-water](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0042-trapping-rain-water) |
 | [0061-rotate-list](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0061-rotate-list) |
 | [0075-sort-colors](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0088-merge-sorted-array) |
@@ -159,6 +161,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0053-maximum-subarray) |
 | [0062-unique-paths](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0062-unique-paths) |
 | [0063-unique-paths-ii](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0063-unique-paths-ii) |
@@ -236,6 +239,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0020-valid-parentheses) |
+| [0042-trapping-rain-water](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0042-trapping-rain-water) |
 | [0084-largest-rectangle-in-histogram](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0084-largest-rectangle-in-histogram) |
 | [0094-binary-tree-inorder-traversal](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0094-binary-tree-inorder-traversal) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0114-flatten-binary-tree-to-linked-list) |
@@ -403,6 +407,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Monotonic Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0042-trapping-rain-water) |
 | [0084-largest-rectangle-in-histogram](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0084-largest-rectangle-in-histogram) |
 | [0496-next-greater-element-i](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0496-next-greater-element-i) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
