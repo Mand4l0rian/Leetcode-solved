@@ -99,6 +99,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0494-target-sum](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0494-target-sum) |
 | [0496-next-greater-element-i](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0496-next-greater-element-i) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0540-single-element-in-a-sorted-array) |
+| [0560-subarray-sum-equals-k](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0560-subarray-sum-equals-k) |
 | [0643-maximum-average-subarray-i](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0643-maximum-average-subarray-i) |
 | [0704-binary-search](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0704-binary-search) |
 | [0875-koko-eating-bananas](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0875-koko-eating-bananas) |
@@ -182,6 +183,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0209-minimum-size-subarray-sum) |
 | [0410-split-array-largest-sum](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0410-split-array-largest-sum) |
+| [0560-subarray-sum-equals-k](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0560-subarray-sum-equals-k) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -270,6 +272,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0451-sort-characters-by-frequency) |
 | [0496-next-greater-element-i](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0496-next-greater-element-i) |
+| [0560-subarray-sum-equals-k](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0560-subarray-sum-equals-k) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 ## String Matching
