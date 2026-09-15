@@ -98,6 +98,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0455-assign-cookies) |
 | [0494-target-sum](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0494-target-sum) |
 | [0496-next-greater-element-i](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0496-next-greater-element-i) |
+| [0523-continuous-subarray-sum](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0523-continuous-subarray-sum) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0540-single-element-in-a-sorted-array) |
 | [0560-subarray-sum-equals-k](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0560-subarray-sum-equals-k) |
 | [0643-maximum-average-subarray-i](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0643-maximum-average-subarray-i) |
@@ -183,6 +184,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0209-minimum-size-subarray-sum) |
 | [0410-split-array-largest-sum](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0410-split-array-largest-sum) |
+| [0523-continuous-subarray-sum](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0523-continuous-subarray-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0560-subarray-sum-equals-k) |
 ## Divide and Conquer
 |  |
@@ -250,6 +252,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0060-permutation-sequence](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0060-permutation-sequence) |
 | [0062-unique-paths](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0070-climbing-stairs) |
+| [0523-continuous-subarray-sum](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0523-continuous-subarray-sum) |
 | [1903-largest-odd-number-in-string](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/1903-largest-odd-number-in-string) |
 ## Trie
 |  |
@@ -272,6 +275,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0451-sort-characters-by-frequency) |
 | [0496-next-greater-element-i](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0496-next-greater-element-i) |
+| [0523-continuous-subarray-sum](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0523-continuous-subarray-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0560-subarray-sum-equals-k) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
@@ -620,4 +624,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0287-find-the-duplicate-number](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0287-find-the-duplicate-number) |
+| [0523-continuous-subarray-sum](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0523-continuous-subarray-sum) |
 <!---LeetCode Topics End-->
