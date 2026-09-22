@@ -3,7 +3,7 @@ public:
     long long hoursNeeded(vector<int>& piles, int k) {
         long long hours = 0;
         for (int bananas : piles) {
-            hours += (bananas + k - 1) / k;
+            hours += (bananas-1)/k +1;
         }
         return hours;
     }
