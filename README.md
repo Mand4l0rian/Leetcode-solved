@@ -74,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0063-unique-paths-ii](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0064-minimum-path-sum) |
 | [0075-sort-colors](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0075-sort-colors) |
+| [0079-word-search](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0079-word-search) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0084-largest-rectangle-in-histogram](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0084-largest-rectangle-in-histogram) |
 | [0088-merge-sorted-array](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0088-merge-sorted-array) |
@@ -223,6 +224,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0037-sudoku-solver](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0037-sudoku-solver) |
 | [0063-unique-paths-ii](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0064-minimum-path-sum) |
+| [0079-word-search](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0079-word-search) |
 | [0200-number-of-islands](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0200-number-of-islands) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0240-search-a-2d-matrix-ii) |
 | [0994-rotting-oranges](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0994-rotting-oranges) |
@@ -234,6 +236,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0014-longest-common-prefix](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0014-longest-common-prefix) |
 | [0020-valid-parentheses](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0020-valid-parentheses) |
 | [0072-edit-distance](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0072-edit-distance) |
+| [0079-word-search](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0079-word-search) |
 | [0131-palindrome-partitioning](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0131-palindrome-partitioning) |
 | [0151-reverse-words-in-a-string](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0151-reverse-words-in-a-string) |
 | [0205-isomorphic-strings](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0205-isomorphic-strings) |
@@ -387,6 +390,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0040-combination-sum-ii](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0046-permutations) |
 | [0051-n-queens](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0051-n-queens) |
+| [0079-word-search](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0090-subsets-ii) |
 | [0131-palindrome-partitioning](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0131-palindrome-partitioning) |
 | [0494-target-sum](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0494-target-sum) |
@@ -517,6 +521,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0079-word-search](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0079-word-search) |
 | [0094-binary-tree-inorder-traversal](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0094-binary-tree-inorder-traversal) |
 | [0098-validate-binary-search-tree](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0098-validate-binary-search-tree) |
 | [0100-same-tree](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0100-same-tree) |
