@@ -250,6 +250,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1021-remove-outermost-parentheses](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/1021-remove-outermost-parentheses) |
 | [1143-longest-common-subsequence](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/1143-longest-common-subsequence) |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
+| [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
 | [1903-largest-odd-number-in-string](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/1903-largest-odd-number-in-string) |
 ## Stack
 |  |
@@ -268,11 +269,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0496-next-greater-element-i](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0496-next-greater-element-i) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1021-remove-outermost-parentheses](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/1021-remove-outermost-parentheses) |
+| [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
 ## Bracket Sequences
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0020-valid-parentheses) |
 | [1021-remove-outermost-parentheses](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/1021-remove-outermost-parentheses) |
+| [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
 ## Math
 |  |
 | ------- |
