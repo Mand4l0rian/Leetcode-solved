@@ -235,6 +235,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0013-roman-to-integer](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0013-roman-to-integer) |
 | [0014-longest-common-prefix](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0014-longest-common-prefix) |
 | [0020-valid-parentheses](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0020-valid-parentheses) |
 | [0072-edit-distance](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0072-edit-distance) |
@@ -280,6 +281,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0002-add-two-numbers) |
+| [0013-roman-to-integer](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0013-roman-to-integer) |
 | [0060-permutation-sequence](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0060-permutation-sequence) |
 | [0062-unique-paths](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0070-climbing-stairs) |
@@ -294,6 +296,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0013-roman-to-integer](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0013-roman-to-integer) |
 | [0037-sudoku-solver](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0037-sudoku-solver) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
