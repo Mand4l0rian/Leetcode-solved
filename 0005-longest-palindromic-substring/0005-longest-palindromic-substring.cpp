@@ -1,22 +1,26 @@
 class Solution {
 public:
-    string longestPalindrome(string s) {
-        int start = 0, maxLen = 1;
 
-        auto expand = [&](int l, int r) {
-            while (l >= 0 && r < s.size() && s[l] == s[r]) {
-                if (r - l + 1 > maxLen) {
-                    start = l;
-                    maxLen = r - l + 1;
-                }
-                l--;
-                r++;
+    void expand(string& s, int l, int r, int& start, int& maxLen) {
+        while (l >= 0 && r < s.size() && s[l] == s[r]) {
+
+            if (r - l + 1 > maxLen) {
+                start = l;
+                maxLen = r - l + 1;
             }
-        };
+
+            l--;
+            r++;
+        }
+    }
+
+    string longestPalindrome(string s) {
+        int start = 0;
+        int maxLen = 1;
 
         for (int i = 0; i < s.size(); i++) {
-            expand(i, i);       // odd length
-            expand(i, i + 1);   // even length
+            expand(s, i, i, start, maxLen);       // odd
+            expand(s, i, i + 1, start, maxLen);   // even
         }
 
         return s.substr(start, maxLen);
