@@ -122,6 +122,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
 | [1539-kth-missing-positive-number](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/1539-kth-missing-positive-number) |
 | [1901-find-a-peak-element-ii](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/1901-find-a-peak-element-ii) |
+| [2104-sum-of-subarray-ranges](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/2104-sum-of-subarray-ranges) |
 ## Binary Search
 |  |
 | ------- |
@@ -284,6 +285,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1021-remove-outermost-parentheses](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/1021-remove-outermost-parentheses) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
+| [2104-sum-of-subarray-ranges](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/2104-sum-of-subarray-ranges) |
 ## Bracket Sequences
 |  |
 | ------- |
@@ -456,6 +458,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0503-next-greater-element-ii](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0503-next-greater-element-ii) |
 | [0907-sum-of-subarray-minimums](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0907-sum-of-subarray-minimums) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
+| [2104-sum-of-subarray-ranges](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/2104-sum-of-subarray-ranges) |
 ## Range Minimum/Maximum Query
 |  |
 | ------- |
