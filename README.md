@@ -202,6 +202,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0011-container-with-most-water) |
+| [0402-remove-k-digits](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0402-remove-k-digits) |
 | [0410-split-array-largest-sum](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0410-split-array-largest-sum) |
 | [0455-assign-cookies](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0455-assign-cookies) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0921-minimum-add-to-make-parentheses-valid) |
@@ -253,6 +254,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0151-reverse-words-in-a-string](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0151-reverse-words-in-a-string) |
 | [0205-isomorphic-strings](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0242-valid-anagram) |
+| [0402-remove-k-digits](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0402-remove-k-digits) |
 | [0424-longest-repeating-character-replacement](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0424-longest-repeating-character-replacement) |
 | [0451-sort-characters-by-frequency](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0451-sort-characters-by-frequency) |
 | [0516-longest-palindromic-subsequence](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0516-longest-palindromic-subsequence) |
@@ -278,6 +280,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0173-binary-search-tree-iterator](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0173-binary-search-tree-iterator) |
 | [0232-implement-queue-using-stacks](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0232-implement-queue-using-stacks) |
 | [0234-palindrome-linked-list](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0234-palindrome-linked-list) |
+| [0402-remove-k-digits](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0402-remove-k-digits) |
 | [0496-next-greater-element-i](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0503-next-greater-element-ii) |
 | [0907-sum-of-subarray-minimums](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0907-sum-of-subarray-minimums) |
@@ -454,6 +457,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0042-trapping-rain-water](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0042-trapping-rain-water) |
 | [0084-largest-rectangle-in-histogram](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0084-largest-rectangle-in-histogram) |
+| [0402-remove-k-digits](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0402-remove-k-digits) |
 | [0496-next-greater-element-i](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0503-next-greater-element-ii) |
 | [0907-sum-of-subarray-minimums](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0907-sum-of-subarray-minimums) |
