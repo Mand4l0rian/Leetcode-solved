@@ -198,6 +198,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0410-split-array-largest-sum](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0410-split-array-largest-sum) |
 | [0494-target-sum](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0494-target-sum) |
 | [0516-longest-palindromic-subsequence](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0516-longest-palindromic-subsequence) |
+| [0678-valid-parenthesis-string](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0678-valid-parenthesis-string) |
 | [0907-sum-of-subarray-minimums](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0907-sum-of-subarray-minimums) |
 | [1143-longest-common-subsequence](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/1143-longest-common-subsequence) |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
@@ -209,6 +210,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0402-remove-k-digits](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0402-remove-k-digits) |
 | [0410-split-array-largest-sum](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0410-split-array-largest-sum) |
 | [0455-assign-cookies](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0455-assign-cookies) |
+| [0678-valid-parenthesis-string](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0678-valid-parenthesis-string) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1903-largest-odd-number-in-string](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/1903-largest-odd-number-in-string) |
 ## Prefix Sum
@@ -262,6 +264,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0424-longest-repeating-character-replacement](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0424-longest-repeating-character-replacement) |
 | [0451-sort-characters-by-frequency](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0451-sort-characters-by-frequency) |
 | [0516-longest-palindromic-subsequence](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0516-longest-palindromic-subsequence) |
+| [0678-valid-parenthesis-string](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0678-valid-parenthesis-string) |
 | [0796-rotate-string](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0796-rotate-string) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1021-remove-outermost-parentheses](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/1021-remove-outermost-parentheses) |
@@ -287,6 +290,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0402-remove-k-digits](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0402-remove-k-digits) |
 | [0496-next-greater-element-i](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0503-next-greater-element-ii) |
+| [0678-valid-parenthesis-string](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0678-valid-parenthesis-string) |
 | [0735-asteroid-collision](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0735-asteroid-collision) |
 | [0907-sum-of-subarray-minimums](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0907-sum-of-subarray-minimums) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0921-minimum-add-to-make-parentheses-valid) |
@@ -298,6 +302,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0020-valid-parentheses) |
+| [0678-valid-parenthesis-string](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0678-valid-parenthesis-string) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1021-remove-outermost-parentheses](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/1021-remove-outermost-parentheses) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
