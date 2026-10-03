@@ -104,6 +104,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0322-coin-change](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0322-coin-change) |
 | [0347-top-k-frequent-elements](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0347-top-k-frequent-elements) |
 | [0410-split-array-largest-sum](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0410-split-array-largest-sum) |
+| [0435-non-overlapping-intervals](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0455-assign-cookies) |
 | [0494-target-sum](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0494-target-sum) |
 | [0496-next-greater-element-i](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0496-next-greater-element-i) |
@@ -197,6 +198,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0322-coin-change](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0322-coin-change) |
 | [0410-split-array-largest-sum](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0410-split-array-largest-sum) |
+| [0435-non-overlapping-intervals](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0435-non-overlapping-intervals) |
 | [0494-target-sum](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0494-target-sum) |
 | [0516-longest-palindromic-subsequence](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0516-longest-palindromic-subsequence) |
 | [0678-valid-parenthesis-string](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0678-valid-parenthesis-string) |
@@ -210,6 +212,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0055-jump-game](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0055-jump-game) |
 | [0402-remove-k-digits](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0402-remove-k-digits) |
 | [0410-split-array-largest-sum](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0410-split-array-largest-sum) |
+| [0435-non-overlapping-intervals](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0455-assign-cookies) |
 | [0678-valid-parenthesis-string](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0678-valid-parenthesis-string) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0921-minimum-add-to-make-parentheses-valid) |
@@ -366,6 +369,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0242-valid-anagram) |
 | [0295-find-median-from-data-stream](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0347-top-k-frequent-elements) |
+| [0435-non-overlapping-intervals](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0435-non-overlapping-intervals) |
 | [0451-sort-characters-by-frequency](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0451-sort-characters-by-frequency) |
 | [0455-assign-cookies](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0455-assign-cookies) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
