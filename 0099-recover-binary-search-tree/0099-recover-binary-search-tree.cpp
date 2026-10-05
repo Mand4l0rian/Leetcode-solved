@@ -10,55 +10,63 @@
  * };
  */
 class Solution {
-private:
-    TreeNode* first;
-    TreeNode* middle;
-    TreeNode* last;
-    TreeNode* prev;
+public:
+    void recoverTree(TreeNode* root) {
+        TreeNode* first = nullptr;
+        TreeNode* second = nullptr;
+        TreeNode* prev = nullptr;
 
-    void inorder(TreeNode* root) {
+        while (root) {
 
-        if (root == NULL)
-            return;
+            // No left subtree
+            if (!root->left) {
 
-        inorder(root->left);
+                // Check inorder violation
+                if (prev && prev->val > root->val) {
+                    if (!first)
+                        first = prev;
 
-        // Violation found
-        if (root->val < prev->val) {
+                    second = root;
+                }
 
-            // First violation
-            if (first == NULL) {
-                first = prev;
-                middle = root;
+                prev = root;
+                root = root->right;
             }
 
-            // Second violation
+            // Left subtree exists
             else {
-                last = root;
+                TreeNode* predecessor = root->left;
+
+                // Find inorder predecessor
+                while (predecessor->right &&
+                       predecessor->right != root) {
+                    predecessor = predecessor->right;
+                }
+
+                // First time: create thread
+                if (!predecessor->right) {
+                    predecessor->right = root;
+                    root = root->left;
+                }
+
+                // Second time: remove thread and visit root
+                else {
+                    predecessor->right = nullptr;
+
+                    // Check inorder violation
+                    if (prev && prev->val > root->val) {
+                        if (!first)
+                            first = prev;
+
+                        second = root;
+                    }
+
+                    prev = root;
+                    root = root->right;
+                }
             }
         }
 
-        prev = root;
-
-        inorder(root->right);
-    }
-
-public:
-    void recoverTree(TreeNode* root) {
-
-        first = middle = last = NULL;
-
-        // Smallest possible value
-        prev = new TreeNode(INT_MIN);
-
-        inorder(root);
-
-        // Non-adjacent nodes were swapped
-        if (first != NULL && last != NULL)
-            swap(first->val, last->val);
-
-        // Adjacent nodes were swapped
-        else if (first != NULL && middle != NULL)
-            swap(first->val, middle->val);
+        swap(first->val, second->val);
     }
 };
