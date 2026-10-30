@@ -5,6 +5,7 @@ public:
         if(sum>target) return;
         if(sum==target){
             ans.push_back(temp);
+            return;
         }
         for(int i=start;i<candidates.size();i++){
             if(i>start && candidates[i]==candidates[i-1]) continue;
