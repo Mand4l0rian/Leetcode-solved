@@ -7,7 +7,7 @@ public:
         // Calculate prefix products
         int prefix = 1;
         for(int i = 0; i < n; i++) {
-            ans[i] *= prefix;
+            ans[i] = prefix;
             prefix *= nums[i];
         }
 
