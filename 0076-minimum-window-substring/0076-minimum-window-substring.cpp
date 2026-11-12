@@ -1,4 +1,6 @@
-
+// idea is simple, we know what to do but this map approach is difficult to produce:
+// just focus on: using a map and required integer, map has -ve values for the char in window which are not a part of characters which are required and the required characters have +ve values,
+// we thus find the "start" which is the starting point of the window which we seek to find and "minlength" is the length of the corresponding window. 
 class Solution {
 public:
     string minWindow(string s, string t) {
