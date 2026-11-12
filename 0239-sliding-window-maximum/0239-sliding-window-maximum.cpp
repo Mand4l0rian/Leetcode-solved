@@ -1,3 +1,4 @@
+// use deque, store indices in a monotonic decreasing sequence, at each iteration, insert into deque while maintaining the monotonic property, the front of the queue thus becomes the index storing the largest element, check whether the front index is in range of the window, and if not then pop from front till we obtain the largest element which is in the current range, and then push the element into the ans vector.
 class Solution {
 public:
     vector<int> maxSlidingWindow(vector<int>& nums, int k) {
