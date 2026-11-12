@@ -180,6 +180,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0287-find-the-duplicate-number](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0287-find-the-duplicate-number) |
 | [0295-find-median-from-data-stream](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0295-find-median-from-data-stream) |
 | [0455-assign-cookies](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0455-assign-cookies) |
+| [0567-permutation-in-string](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0567-permutation-in-string) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0876-middle-of-the-linked-list](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0876-middle-of-the-linked-list) |
 | [2406-divide-intervals-into-minimum-number-of-groups](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/2406-divide-intervals-into-minimum-number-of-groups) |
@@ -284,6 +285,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0424-longest-repeating-character-replacement](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0424-longest-repeating-character-replacement) |
 | [0451-sort-characters-by-frequency](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0451-sort-characters-by-frequency) |
 | [0516-longest-palindromic-subsequence](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0516-longest-palindromic-subsequence) |
+| [0567-permutation-in-string](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0567-permutation-in-string) |
 | [0678-valid-parenthesis-string](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0678-valid-parenthesis-string) |
 | [0796-rotate-string](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0796-rotate-string) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0921-minimum-add-to-make-parentheses-valid) |
@@ -368,6 +370,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0496-next-greater-element-i](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0496-next-greater-element-i) |
 | [0523-continuous-subarray-sum](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0523-continuous-subarray-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0560-subarray-sum-equals-k) |
+| [0567-permutation-in-string](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0567-permutation-in-string) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [0930-binary-subarrays-with-sum](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0930-binary-subarrays-with-sum) |
@@ -520,6 +523,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0209-minimum-size-subarray-sum](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0209-minimum-size-subarray-sum) |
 | [0239-sliding-window-maximum](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0239-sliding-window-maximum) |
 | [0424-longest-repeating-character-replacement](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0424-longest-repeating-character-replacement) |
+| [0567-permutation-in-string](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0567-permutation-in-string) |
 | [0643-maximum-average-subarray-i](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0643-maximum-average-subarray-i) |
 | [0930-binary-subarrays-with-sum](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/0930-binary-subarrays-with-sum) |
 | [1248-count-number-of-nice-subarrays](https://github.com/Mand4l0rian/Leetcode-solved/tree/master/1248-count-number-of-nice-subarrays) |
