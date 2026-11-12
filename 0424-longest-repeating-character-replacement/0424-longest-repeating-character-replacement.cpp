@@ -12,7 +12,7 @@ public:
             freq[s[right] - 'A']++;
 
             maxFreq = max(maxFreq, freq[s[right] - 'A']);
-
+// hard optimizations (watch striver video last part for more info).
             // Invalid window
             if ((right - left + 1) - maxFreq > k) {
                 freq[s[left] - 'A']--;
