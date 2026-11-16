@@ -29,24 +29,25 @@
 
 class Solution {
 public:
-    int findMin(vector<int>& nums) {
-        int low = 0;
-        int high = nums.size() - 1;
+    int findMin(vector<int> &nums) {
+        int res = nums[0];
+        int l = 0;
+        int r = nums.size() - 1;
 
-        while (low < high) {
-            int mid =(low+ high) / 2;
+        while (l <= r) {
+            if (nums[l] < nums[r]) {
+                res = min(res, nums[l]);
+                break;
+            }
+            int m = l + (r - l) / 2;
+            res = min(res, nums[m]);
 
-            if (nums[low] > nums[mid]) {
-                high = mid;
-            }
-            else if (nums[mid] > nums[high]) {
-                low = mid + 1;
-            }
-            else {
-                high = mid;
+            if (nums[m] >= nums[l]) {
+                l = m + 1;
+            } else {
+                r = m - 1;
             }
         }
-
-        return nums[high];
+        return res;
     }
 };
