@@ -47,6 +47,6 @@ public:
             }
         }
 
-        return nums[low];
+        return nums[high];
     }
 };
