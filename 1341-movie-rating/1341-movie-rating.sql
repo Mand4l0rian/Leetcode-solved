@@ -9,7 +9,7 @@ group by r.user_id
 order by num desc,u.name
 limit 1)
 
-UNION ALL
+UNION
 
 (select m.title as results, avg(rating) as avg_rating
 from MovieRating r
